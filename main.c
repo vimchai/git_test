@@ -24,4 +24,8 @@ int main(void)
 	
 	printf("the student name: %s\n", st_tom->name);	 
 	printf("hello github\n");
+	
+	free(st_tom);
+
+	return 0;
 }
